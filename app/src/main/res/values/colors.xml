@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#424242</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#F1F1F3</color>
+    <color name="fondo">#17161B</color>
+    <color name="barra">#28272c</color>
+    <color name="header">#E0E0E0</color>
+    <color name="miColor">#9092DA</color>
+
+    <color name="borrar">#D8334A</color>
+    <color name="textAgregar">#B3B3B3</color>
+    <color name="your_focused_color">#FF8A65</color>
+    <color name="your_disabled_color">#BDBDBD</color>
+
+    <color name="your_ripple_color">#4CAF50</color>
+    <color name="button_color">#FF9800</color>
+    <color name="ripple_color">#FFCC80</color>
+
+    <color name="primaryColor">#fffacd</color>
+    <color name="primaryDarkColor">#512DA8</color>
+    <color name="onPrimaryColor">#FFFFFF</color>
+    <color name="secondaryColor">#7d7f7d</color>
+    <color name="secondaryDarkColor">#E64A19</color>
+    <color name="onSecondaryColor">#000000</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="hintColor">#9E9E9E</color>
+</resources>

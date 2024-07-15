@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DbFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/sfrmDb"
+            android:textColor="@color/miColor"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matrícula"
+                android:textColor="@color/grey"
+                android:textStyle="bold"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/inMatricula"
+                android:textColorHint="@color/textAgregar"
+                android:inputType="number"
+                android:hint="2021030262"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textColor="@color/grey"
+                android:textStyle="bold"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/inNombre"
+                android:textColorHint="@color/textAgregar"
+                android:hint="Nombre"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Domicilio"
+                android:textColor="@color/grey"
+                android:textStyle="bold"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/inDomicilio"
+                android:textColorHint="@color/textAgregar"
+                android:hint="Calle # Colonia CP"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Foto"
+                android:textColor="@color/grey"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/fotos"
+                android:layout_gravity="center"
+                android:id="@+id/imgAlumno"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seleccionar Foto"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/miColor"
+                android:id="@+id/btnSubirFoto"
+                android:textColor="@color/textAgregar"
+                android:onClick="onUploadPhotoClicked"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Especialidad"
+                android:textStyle="bold"
+                android:textColor="@color/grey"
+                android:layout_margin="6dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/inEspecialidad"
+                android:textColorHint="@color/textAgregar"
+                android:hint="Grado, licenciatura o Ing."/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/miColor"
+                android:id="@+id/btnGuardar"
+                android:textColor="@color/textAgregar"
+                />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+                <TableRow>
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buscar"
+                        android:id="@+id/btnBuscar"
+                        android:backgroundTint="@color/miColor"
+                        android:textColor="@color/textAgregar"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Borrar"
+                        android:id="@+id/btnBorrar"
+                        android:textColor="@color/grey"
+                        android:backgroundTint="@color/borrar"
+                        android:enabled="false"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
