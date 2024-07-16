@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "677187383603",
+    "project_id": "carolvazquezab",
+    "storage_bucket": "carolvazquezab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677187383603:android:310ce9d0852ae4e02c8e46",
+        "android_client_info": {
+          "package_name": "com.example.appmenubutton"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx7VGsiBCauehE0I7cXM49WtI2hz84mrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
